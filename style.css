@@ -5,8 +5,10 @@ html body {
     height: 100vh;
 }
 
-@media (max-width: 767px) {
-
+@media (max-width: 575px) {
+    .info-rows {
+        padding-right: 50px;
+    }
     .info-title {
         text-align: center;
     }
