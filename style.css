@@ -20,6 +20,9 @@ html body {
     margin-left: 4px;
     border-color: blue;
 }
+.footer-links:hover {
+    text-decoration: none;
+}
 .sample-video {
     width: 580px;
 }

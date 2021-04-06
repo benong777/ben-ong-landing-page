@@ -15,15 +15,15 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #e3f2fd;">
-        <a class="navbar-brand" href="#">Handcrafted masterpieces</a>
+        <a class="navbar-brand" href="#">Tennis Academy</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Features <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">How It Works</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
+            <a class="nav-item nav-link active" href="#lessons-info">Information<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#lessons-video">Video</a>
+            <a class="nav-item nav-link" href="#pricing">Pricing</a>
           </div>
         </div>
       </nav>
@@ -31,7 +31,7 @@
     <div class="container">
         <!-- Email input section -->
         <div class="row d-flex flex-column align-items-center mt-5 mb-5">
-            <h5>Placeholder title</h5>
+            <h5 class="mb-3">Tennis Lessons</h5>
             <form action="" method="">
                 <div class="form-group">
                     <div class="input-group">
@@ -39,12 +39,12 @@
                     </div>
                 </div>
             </form>
-            <button class="btn btn-primary">Submit</button><br>
+            <button class="btn btn-primary">Get started</button><br>
         </div>
 
         <!-- Product info section:
              Small screens - remove icons and center content -->
-        <div class="row info-rows d-flex justify-content-center mb-5">
+        <div id="lessons-info" class="row info-rows d-flex justify-content-center mb-5">
             <div class="col-2 col-md-2 d-flex justify-content-center align-items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" 
                      width="52" 
@@ -56,8 +56,10 @@
                 </svg>
             </div>
             <div class="col-10 col-md-10 info-title">
-                    <h class="h5">Title-1</h>
-                    <p class="pb-0 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quidem corrupti architecto modi numquam quis!</p>
+                    <h class="h5">Academy</h>
+                    <p class="pb-0 mb-0">For 16 years, we have worked with students of all levels.  Beginners are welcome!
+                        For the more advanced players, we can customize the lessons to level up your game to new heights.
+                    </p>
             </div>
         </div>
 
@@ -73,8 +75,8 @@
                 </svg>
             </div>
             <div class="col-10 col-md-10 info-title">
-                    <h class="h5">Title-2</h>
-                    <p class="pb-0 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quidem corrupti architecto modi numquam quis!</p>
+                    <h class="h5">Students</h>
+                    <p class="pb-0 mb-0">All age groups and skill levels are welcome.  We customize our sessions to focus on your goals.</p>
             </div>
         </div>
         
@@ -90,47 +92,49 @@
                 </svg>
             </div>
             <div class="col-10 col-md-10 info-title">
-                    <h class="h5">Title-3</h>
-                    <p class="pb-0 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quidem corrupti architecto modi numquam quis!</p>
+                    <h class="h5">Locations</h>
+                    <p class="pb-0 mb-0">We offer lessons at locations across the Bay Area!</p>
 
             </div>
         </div>
        
         <!-- YouTube video -->
-        <div class="row d-flex justify-content-center">
+        <div id="lessons-video" class="row d-flex justify-content-center">
             <div class="embed-responsive embed-responsive-16by9 sample-video">
-                <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5arVdubK9Pg" allowfullscreen></iframe>
             </div>
         </div>
 
         <!-- Product cards -->
-        <div class="row text-center py-5">
-            <div class="col-12 col-md-4 d-flex justify-content-center">
+        <div id="pricing" class="row text-center py-5">
+            <!-- Hourly lessons -->
+            <div class="col-12 col-md-4 d-flex justify-content-center py-2">
                 <div class="card">
-                    <h5 class="card-header">Standard</h5>
+                    <h5 class="card-header">Hourly lessons</h5>
                     <div class="card-body">
-                        <h5 class="card-title">$60</h5>
+                        <h5 class="card-title">$30/hr</h5>
                         <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                         <a href="#" class="btn btn-primary">Select</a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 d-flex justify-content-center">
+
+            <div class="col-12 col-md-4 d-flex justify-content-center py-2">
                 <div class="card">
-                    <h5 class="card-header">Premium</h5>
+                    <h5 class="card-header">Monthly subscriptions</h5>
                     <div class="card-body">
-                        <h5 class="card-title">$100</h5>
+                        <h5 class="card-title">$200</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum!</p>
                         <a href="#" class="btn btn-primary">Select</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 d-flex justify-content-center">
+            <div class="col-12 col-md-4 d-flex justify-content-center py-2">
                 <div class="card">
-                    <h5 class="card-header">Collectible</h5>
+                    <h5 class="card-header">Private lessons</h5>
                     <div class="card-body">
-                        <h5 class="card-title">$180</h5>
+                        <h5 class="card-title">$60/hr</h5>
                         <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit!</p>
                         <a href="#" class="btn btn-primary">Select</a>
                     </div>
@@ -142,13 +146,13 @@
     <!-- Footer -->
     <footer class="page-footer">
         <div class="d-flex justify-content-end">
-            <a class="mx-3" href="#" alt="Privacy">Privacy</a>
-            <a class="mx-3" href="#" alt="Terms">Terms</a>        
-            <a class="mx-3" href="#" alt="Contact">Contact</a>
+            <a class="mx-3 footer-links" href="#" alt="Privacy">Privacy</a>
+            <a class="mx-3 footer-links" href="#" alt="Terms">Terms</a>        
+            <a class="mx-3 footer-links" href="#" alt="Contact">Contact</a>
         </div>
 
         <div class="d-flex justify-content-center">© 2020 Copyright
-            <a class="ml-2" href="#">Placeholder</a>
+            <a class="ml-2" href="#">Tennis Academy</a>
         </div>
     </footer>
 
