@@ -18,6 +18,9 @@ html body {
     margin-left: 4px;
     border-color: blue;
 }
+.footer-links {
+    color: rgb(36, 35, 35);
+}
 .footer-links:hover {
     text-decoration: none;
 }
@@ -25,8 +28,16 @@ html body {
     margin-left: 50px;
     padding-right: 100px;
 }
+.page-footer {
+    background-color: #3a80b3;
+    color: black;
+}
 .sample-video {
     width: 580px;
+}
+#lessons-video {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 @media (max-width: 575px) {
