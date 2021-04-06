@@ -6,16 +6,7 @@ html body {
     background-color: #c3e2f8;
 }
 
-@media (max-width: 575px) {
-    /*
-    .info-rows {
-        padding-right: 50px;
-    }
-    */
-    .info-content {
-        text-align: center;
-    }
-}
+
 /*
 .bg-image {
     background-image: url("tennis-net.jpg");
@@ -30,11 +21,25 @@ html body {
 .footer-links:hover {
     text-decoration: none;
 }
-.info-content {
-    padding-right: 50px;
+.info-rows {
+    margin-left: 50px;
+    padding-right: 100px;
 }
 .sample-video {
     width: 580px;
+}
+
+@media (max-width: 575px) {
+    .info-rows {
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 100px;
+    }
+    .info-content {
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 
