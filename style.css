@@ -31,9 +31,6 @@ html body {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-#pricing {
-    border-color: red;
-}
 
 @media (max-width: 575px) {
     .info-rows {
